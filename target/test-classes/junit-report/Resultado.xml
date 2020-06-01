@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.244946">
+<testcase classname="Validacao de fluxo de produto" name="Testar remocao do carrinho" time="48.244946">
+<system-out><![CDATA[Dado que o site da americanas foi acessado com sucesso......................passed
+E o texto da busca de produtos foi populado corretamente....................passed
+Quando o botao de busca e acionado..........................................passed
+E o produto e selecionado no resultado da busca.............................passed
+E e adicionado no carrinho..................................................passed
+E quando o carrinho e acessado o produto e removido.........................passed
+Entao o carrinho fica vazio.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

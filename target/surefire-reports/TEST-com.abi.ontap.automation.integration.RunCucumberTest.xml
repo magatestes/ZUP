@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.abi.ontap.automation.integration.RunCucumberTest" time="7.105" tests="7" errors="2" skipped="5" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj\target\test-classes;C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj\target\classes;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Felipe\.m2\repository\org\eclipse\ecf\org.apache.commons.logging\1.1.1.v201101211721\org.apache.commons.logging-1.1.1.v201101211721.jar;C:\Users\Felipe\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Felipe\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Felipe\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Felipe\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Felipe\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Felipe\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Felipe\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Felipe\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Felipe\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Felipe\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Felipe\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Felipe\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Felipe\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Felipe\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Felipe\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Felipe\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Felipe\AppData\Local\Temp\surefire5365908786543555029\surefirebooter1292571385457299539.jar C:\Users\Felipe\AppData\Local\Temp\surefire5365908786543555029 2020-05-31T20-16-45_837-jvmRun1 surefire5591518613033808098tmp surefire_07502923617350828815tmp"/>
+    <property name="surefire.test.class.path" value="C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj\target\test-classes;C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj\target\classes;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Felipe\.m2\repository\org\eclipse\ecf\org.apache.commons.logging\1.1.1.v201101211721\org.apache.commons.logging-1.1.1.v201101211721.jar;C:\Users\Felipe\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Felipe\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Felipe\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Felipe\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Felipe\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Felipe\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Felipe\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Felipe\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Felipe\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Felipe\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Felipe\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Felipe\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Felipe\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Felipe\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Felipe\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Felipe\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Felipe\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Felipe\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Felipe\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Felipe\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Felipe"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Felipe\AppData\Local\Temp\surefire5365908786543555029\surefirebooter1292571385457299539.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="Felipe"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Felipe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Felipe\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\HENRIQUE\OLD\WEB2\GHQ_ABI_Salesforce_OneApp\AutomationTestsPrj"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Windows Resource Kits\Tools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Felipe\AppData\Local\Microsoft\WindowsApps;;C:\Users\Felipe\Downloads;;C:\Users\Felipe\Downloads;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Dado que o site da americanas foi acessado com sucesso" classname="Cenario: Testar busca e carrinho" time="0.032">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LO0K9B', ip: '192.168.15.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006187E3+2852835]
+	Ordinal0 [0x00505BB1+1727409]
+	Ordinal0 [0x003DE4B9+517305]
+	Ordinal0 [0x00370BA0+68512]
+	Ordinal0 [0x0036D3A0+54176]
+	Ordinal0 [0x0038D9F7+186871]
+	Ordinal0 [0x0038D7FD+186365]
+	Ordinal0 [0x0038B70B+177931]
+	Ordinal0 [0x00372584+75140]
+	Ordinal0 [0x00373650+79440]
+	Ordinal0 [0x003735E9+79337]
+	Ordinal0 [0x0051AD5C+1813852]
+	GetHandleVerifier [0x0073C616+1075574]
+	GetHandleVerifier [0x0073C367+1074887]
+	GetHandleVerifier [0x00747497+1120247]
+	GetHandleVerifier [0x0073CC16+1077110]
+	Ordinal0 [0x00513206+1782278]
+	Ordinal0 [0x0051C3BB+1819579]
+	Ordinal0 [0x0051C523+1819939]
+	Ordinal0 [0x00532B45+1911621]
+	BaseThreadInitThunk [0x75236359+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775C7B44+180]
+
+</error>
+    <system-out><![CDATA[#language: pt
+#/**
+# * Autor: Henrique Magalhaes
+# * Data: 31/05/2020
+# */
+Funcionalidade: Validacao de fluxo de produto
+  
+  O sistema deve se comportar de forma correta tanto da 
+  busca de um produto quanto sua adi??o no carrinho.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3845
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Cenario: Testar busca e carrinho" classname="Cenario: Testar busca e carrinho" time="0.032">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LO0K9B', ip: '192.168.15.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006187E3+2852835]
+	Ordinal0 [0x00505BB1+1727409]
+	Ordinal0 [0x003DE4B9+517305]
+	Ordinal0 [0x00370BA0+68512]
+	Ordinal0 [0x0036D3A0+54176]
+	Ordinal0 [0x0038D9F7+186871]
+	Ordinal0 [0x0038D7FD+186365]
+	Ordinal0 [0x0038B70B+177931]
+	Ordinal0 [0x00372584+75140]
+	Ordinal0 [0x00373650+79440]
+	Ordinal0 [0x003735E9+79337]
+	Ordinal0 [0x0051AD5C+1813852]
+	GetHandleVerifier [0x0073C616+1075574]
+	GetHandleVerifier [0x0073C367+1074887]
+	GetHandleVerifier [0x00747497+1120247]
+	GetHandleVerifier [0x0073CC16+1077110]
+	Ordinal0 [0x00513206+1782278]
+	Ordinal0 [0x0051C3BB+1819579]
+	Ordinal0 [0x0051C523+1819939]
+	Ordinal0 [0x00532B45+1911621]
+	BaseThreadInitThunk [0x75236359+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775C7B44+180]
+
+</error>
+  </testcase>
+  <testcase name="E o texto da busca de produtos foi populado corretamente" classname="Cenario: Testar busca e carrinho" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Quando o botao de busca e acionado" classname="Cenario: Testar busca e carrinho" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="E o produto e selecionado no resultado da busca" classname="Cenario: Testar busca e carrinho" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="E e adicionado no carrinho" classname="Cenario: Testar busca e carrinho" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Entao quando o carrinho e acessado o produto aparece corretamente" classname="Cenario: Testar busca e carrinho" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

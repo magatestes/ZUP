@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.abi.ontap.automation.integration.RunnerCucumberWebTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 0.047 s <<< FAILURE! - in com.abi.ontap.automation.integration.RunnerCucumberWebTest
+Dado que o site da americanas foi acessado com sucesso(Cenario: Testar busca e carrinho)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.abi.ontap.automation.integration.stepdefs.ValidaProdutoSTEPS
+
+Cenario: Testar busca e carrinho  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.abi.ontap.automation.integration.stepdefs.ValidaProdutoSTEPS
+

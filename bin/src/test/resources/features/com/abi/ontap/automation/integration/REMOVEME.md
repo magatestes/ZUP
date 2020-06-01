@@ -1,0 +1,1 @@
+This file should be removed when some file add. This is necessary to git add folder structure.

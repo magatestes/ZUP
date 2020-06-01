@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: com.abi.ontap.automation.integration.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 7.105 s <<< FAILURE! - in com.abi.ontap.automation.integration.RunCucumberTest
+Dado que o site da americanas foi acessado com sucesso(Cenario: Testar busca e carrinho)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LO0K9B', ip: '192.168.15.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006187E3+2852835]
+	Ordinal0 [0x00505BB1+1727409]
+	Ordinal0 [0x003DE4B9+517305]
+	Ordinal0 [0x00370BA0+68512]
+	Ordinal0 [0x0036D3A0+54176]
+	Ordinal0 [0x0038D9F7+186871]
+	Ordinal0 [0x0038D7FD+186365]
+	Ordinal0 [0x0038B70B+177931]
+	Ordinal0 [0x00372584+75140]
+	Ordinal0 [0x00373650+79440]
+	Ordinal0 [0x003735E9+79337]
+	Ordinal0 [0x0051AD5C+1813852]
+	GetHandleVerifier [0x0073C616+1075574]
+	GetHandleVerifier [0x0073C367+1074887]
+	GetHandleVerifier [0x00747497+1120247]
+	GetHandleVerifier [0x0073CC16+1077110]
+	Ordinal0 [0x00513206+1782278]
+	Ordinal0 [0x0051C3BB+1819579]
+	Ordinal0 [0x0051C523+1819939]
+	Ordinal0 [0x00532B45+1911621]
+	BaseThreadInitThunk [0x75236359+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775C7B44+180]
+
+
+Cenario: Testar busca e carrinho  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LO0K9B', ip: '192.168.15.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006187E3+2852835]
+	Ordinal0 [0x00505BB1+1727409]
+	Ordinal0 [0x003DE4B9+517305]
+	Ordinal0 [0x00370BA0+68512]
+	Ordinal0 [0x0036D3A0+54176]
+	Ordinal0 [0x0038D9F7+186871]
+	Ordinal0 [0x0038D7FD+186365]
+	Ordinal0 [0x0038B70B+177931]
+	Ordinal0 [0x00372584+75140]
+	Ordinal0 [0x00373650+79440]
+	Ordinal0 [0x003735E9+79337]
+	Ordinal0 [0x0051AD5C+1813852]
+	GetHandleVerifier [0x0073C616+1075574]
+	GetHandleVerifier [0x0073C367+1074887]
+	GetHandleVerifier [0x00747497+1120247]
+	GetHandleVerifier [0x0073CC16+1077110]
+	Ordinal0 [0x00513206+1782278]
+	Ordinal0 [0x0051C3BB+1819579]
+	Ordinal0 [0x0051C523+1819939]
+	Ordinal0 [0x00532B45+1911621]
+	BaseThreadInitThunk [0x75236359+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775C7B44+180]
+
+
